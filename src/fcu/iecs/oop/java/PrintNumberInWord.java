@@ -43,6 +43,7 @@ public class PrintNumberInWord
 			default:
 				System.out.print("¡§OTHER¡¨");
 				break;
-		}	
+		}
+		keyboard.close();
 	}	
 }

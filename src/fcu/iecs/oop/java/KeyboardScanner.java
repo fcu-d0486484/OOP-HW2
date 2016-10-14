@@ -18,6 +18,7 @@ public class KeyboardScanner
 		outstr=keyboard.next();
 		System.out.print("\nHi "+outstr+", the multiplication of "+outint+" and "+outflo+" is ");
 		System.out.printf("%e",outflo*outint);
+		keyboard.close();
 	}
 		
 }

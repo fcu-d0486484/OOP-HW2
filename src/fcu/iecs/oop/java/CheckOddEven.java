@@ -15,5 +15,6 @@ public class CheckOddEven
 		System.out.print("Even Number.");
 		else
 		System.out.print("Odd Number.");
+		keyboard.close();
 	}
 }
